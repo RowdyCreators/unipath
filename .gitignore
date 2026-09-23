@@ -1,0 +1,17 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Build output
+# TODO: add the ignore rules for this project's toolchain.

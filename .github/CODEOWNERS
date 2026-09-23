@@ -1,0 +1,16 @@
+# Code owners are requested for review automatically and, because the branch
+# ruleset requires code owner review, their approval is mandatory.
+#
+# Later matches take precedence over earlier ones.
+
+# Default owner for everything in the repo.
+*                       {{OWNER_MENTION}}
+
+# Add more specific ownership as the codebase grows, for example:
+# /infra/               @{{ORG}}/platform
+# /src/billing/         @{{ORG}}/payments
+# *.tf                  @{{ORG}}/platform
+
+# Anything that changes CI, ownership or security policy needs owner sign-off.
+/.github/               {{OWNER_MENTION}}
+/SECURITY.md            {{OWNER_MENTION}}

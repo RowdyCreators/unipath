@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels: ["dependencies", "ci"]
+    commit-message:
+      prefix: "chore(deps)"
+
+  # TODO: add an entry for this project's package ecosystem (pip, npm, gomod,
+  # cargo, maven, nuget, bundler, composer, ...) so application dependencies
+  # get updates too. See:
+  # https://docs.github.com/code-security/dependabot/working-with-dependabot/dependabot-options-reference
