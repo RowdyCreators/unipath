@@ -4,13 +4,13 @@
 # Later matches take precedence over earlier ones.
 
 # Default owner for everything in the repo.
-*                       {{OWNER_MENTION}}
+*                       @nd0310
 
 # Add more specific ownership as the codebase grows, for example:
-# /infra/               @{{ORG}}/platform
-# /src/billing/         @{{ORG}}/payments
-# *.tf                  @{{ORG}}/platform
+# /infra/               @RowdyCreators/platform
+# /src/billing/         @RowdyCreators/payments
+# *.tf                  @RowdyCreators/platform
 
 # Anything that changes CI, ownership or security policy needs owner sign-off.
-/.github/               {{OWNER_MENTION}}
-/SECURITY.md            {{OWNER_MENTION}}
+/.github/               @nd0310
+/SECURITY.md            @nd0310

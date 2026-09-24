@@ -1,4 +1,4 @@
-# Contributing to {{REPO}}
+# Contributing to unipath
 
 ## Workflow
 

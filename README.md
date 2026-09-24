@@ -1,12 +1,12 @@
-# {{REPO}}
+# unipath
 
 > TODO: One sentence on what this service does and who it is for.
 
 ## Getting started
 
 ```bash
-git clone git@github.com:{{ORG}}/{{REPO}}.git
-cd {{REPO}}
+git clone git@github.com:RowdyCreators/unipath.git
+cd unipath
 # TODO: describe how to bootstrap this project
 ```
 
@@ -29,4 +29,4 @@ use, copy or modify this code. Add a `LICENSE` before publishing or sharing it.
 
 ## Support
 
-Owner: {{OWNER_MENTION}}
+Owner: @nd0310
