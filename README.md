@@ -7,13 +7,15 @@
 ```bash
 git clone git@github.com:RowdyCreators/unipath.git
 cd unipath
-# TODO: describe how to bootstrap this project
+npm install
+npm run dev
 ```
 
 ## Running the tests
 
+TODO: implment testing
 ```bash
-# TODO: test command
+npm run test
 ```
 
 ## Contributing
