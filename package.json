@@ -1,0 +1,24 @@
+{
+  "name": "unipath",
+  "version": "0.0.1",
+  "description": "> TODO: One sentence on what this service does and who it is for.",
+  "homepage": "https://github.com/RowdyCreators/unipath#readme",
+  "bugs": {
+    "url": "https://github.com/RowdyCreators/unipath/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RowdyCreators/unipath.git"
+  },
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "vite": "^8.3.4"
+  }
+}
