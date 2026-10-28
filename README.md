@@ -11,6 +11,14 @@ npm install
 npm run dev
 ```
 
+## Backend framework status
+
+The switch from Flask to FastAPI is pending formal approval and updates to the
+project spec, tickets, and agent instructions. The current backend scaffold uses
+FastAPI, and all backend functionality implemented during this transition will
+use FastAPI. Existing Flask references describe the previous framework choice.
+PostgreSQL remains the application's single source of truth.
+
 ## Running the tests
 
 TODO: implment testing
