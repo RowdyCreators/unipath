@@ -1,8 +1,13 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
+from pydantic import BaseModel
 
 app = FastAPI()
 
 
-@app.get("/")
-def root(yo: int = 0, gurt: str = ""):
-    return {"message": "hello from fastapi", "query": (yo, gurt)}
+class TestBody(BaseModel):
+    message: str
+
+
+@app.post("/api/test")
+async def test(body: TestBody):
+    return {"message": f"got message: {body.message}"}
