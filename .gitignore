@@ -19,3 +19,5 @@ node_modules/
 .pi/
 **/__pycache__/
 *.py[cod]
+dist/
+.env.local

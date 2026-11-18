@@ -16,16 +16,17 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest run",
     "dev:front": "just dev-front",
     "dev:back": "just dev-back",
-    "dev:db": "just dev-db",
+    "dev:db": "just dev-postgres",
     "dev": "just dev"
   },
   "dependencies": {
     "vite": "^8.3.4"
   },
   "devDependencies": {
-    "just": "^0.1.8"
+    "just": "^0.1.8",
+    "vitest": "^5.0.5"
   }
 }
