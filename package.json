@@ -17,12 +17,16 @@
   },
   "scripts": {
     "test": "vitest run",
-    "dev": "vite dev"
+    "dev:front": "just dev-front",
+    "dev:back": "just dev-back",
+    "dev:db": "just dev-postgres",
+    "dev": "just dev"
   },
   "dependencies": {
     "vite": "^8.3.4"
   },
   "devDependencies": {
+    "just": "^0.1.8",
     "vitest": "^5.0.5"
   }
 }

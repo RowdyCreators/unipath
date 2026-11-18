@@ -11,6 +11,12 @@ npm install
 npm run dev
 ```
 
+## Backend framework
+
+The backend uses FastAPI. Existing Flask references in older specs and tickets
+describe the previous framework choice.
+PostgreSQL remains the application's single source of truth.
+
 ## Running the tests
 
 TODO: implment testing

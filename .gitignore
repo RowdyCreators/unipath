@@ -17,5 +17,7 @@ Thumbs.db
 # TODO: add the ignore rules for this project's toolchain.
 node_modules/
 .pi/
+**/__pycache__/
+*.py[cod]
 dist/
 .env.local

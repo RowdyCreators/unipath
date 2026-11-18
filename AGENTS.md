@@ -6,9 +6,9 @@ Follow `CONTRIBUTING.md` for the development and review workflow.
 
 - Frontend: plain HTML, CSS, and JavaScript.
 - Frontend tooling: Vite, with npm as the package manager.
-- Backend: Python with Flask.
+- Backend: Python with FastAPI.
 - Database: PostgreSQL, hosted as the application's single source of truth.
-- College-search and scholarship logic: Python modules called by Flask,
+- College-search and scholarship logic: Python modules called by FastAPI,
   independent of HTTP handling and database access.
 
 Use this stack for the MVP.
